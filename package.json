@@ -1,0 +1,16 @@
+{
+  "name": "langfuse-claudecode-hook-ts",
+  "version": "0.1.0",
+  "description": "Langfuse Stop hook for Claude Code (TypeScript)",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "langfuse": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
